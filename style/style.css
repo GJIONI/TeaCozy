@@ -128,8 +128,8 @@ h4 {
 
 .fourth h2 {
   display: block;
-  padding-bottom: 10px;
-  padding-top: 0;
+  bottom: 0;
+  top: 50px;
 
 }
 
@@ -142,16 +142,17 @@ h4 {
 }
 
 .loc1 {
+  padding-top: 0;
   background-color: black;
-  padding: 5px;
   width: 280px;
-  margin: 5px 20px;
-  max-height: 300px;
+  height: 250px;
+  margin: 0 20px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-shrink: 7;
+
 
 
 
@@ -160,8 +161,6 @@ h4 {
 loc1 p {
   opacity: 1;
   color: seashell;
-  display: block;
-  text-align: center;
   font-size: 22px;
 
 
@@ -169,11 +168,13 @@ loc1 p {
 
 h3 {
   display: block;
-  text-align: center;
-
 
 }
 
+.fifth {
+  display: block;
+  height: 200px;
+}
 
 .sixth h5 {
   text-align: left;
