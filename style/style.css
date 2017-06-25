@@ -113,3 +113,40 @@ h4 {
   text-align: center;
   font-weight: bold;
 }
+
+
+.fourth {
+  background-image: url("images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  display: block;
+
+}
+
+.fourth h2 {
+  padding-top: 20px;
+}
+
+.loc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.loc1 {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 15px 40px;
+  text-align: center;
+
+
+}
+
+loc1 span {
+  opacity: 1;
+  color: seashell;
+}
